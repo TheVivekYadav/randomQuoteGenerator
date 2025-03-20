@@ -9,17 +9,23 @@ This is a simple Random Quote Generator that fetches quotes from an API and disp
 - Enables sharing quotes on X (Twitter)
 - Provides a button to fetch new quotes
 
+## Screenshots 📸
+![pc Version](./img/ss1.png)
+![Mobile Version](./img/ss2.png)
+
+## Deployment 🌐
+[Click here to use the Random Quote Generator](https://random-quote-generator-zeta-mauve.vercel.app/)
 
 ## Installation & Usage
 
 ### Steps to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/random-quote-generator.git
+   git https://github.com/TheVivekYadav/randomQuoteGenerator.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd random-quote-generator
+   cd randomQuoteGenerator
    ```
 3. Open `index.html` in your preferred browser.
 
