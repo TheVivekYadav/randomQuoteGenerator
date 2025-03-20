@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+header{
+	padding-top: 50px;
+}
+header > h1{
+	text-align: center;
+	font-size: calc(4vw + 3vh);
+}
+
+#container{
+	width: 100vw;
+	height: 100vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#card{
+	max-width: 90%;
+	font-size: calc(1vw + 2vh);
+}
+
+#card > div{
+	margin: 10px;
+}
+#card > div > button{
+	margin-top: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#card > div >button#copy-to-clipboard{
+	float: left;
+}
+
+#card > div > button#new-quote{
+	float: right;
+}
+
+@media (min-width: 768px){
+
+	header > h1{
+		font-size: calc(3vw + 3vh);
+	}
+}
